@@ -8,9 +8,9 @@ public class TV {
 	Control control;
 	boolean estado;
 	static int numTV;
-	public TV(Marca mar, boolean b) {
-		marca=mar;
-		estado=b;
+	public TV(Marca marca, boolean estado) {
+		this.marca=marca;
+		this.estado=estado;
 		numTV++;
 	}
 	
